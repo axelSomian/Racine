@@ -1,0 +1,24 @@
+.text-gray{
+    color: #a7a4a4;
+}.text-red{
+    color: red;
+}
+.bg-color{
+    background-color: #1A1A1A;
+}
+.bg-noir{
+    background-color: #000;
+}
+.full-height {
+    height: 50vh; /* 56px pour la hauteur de la navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass-effect {
+    background: rgba(255, 255, 255, 0.3); /* Couleur blanche avec transparence */
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Flou en arrière-plan */
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre pour un effet 3D */
+}
